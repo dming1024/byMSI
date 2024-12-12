@@ -5,10 +5,10 @@ Bayesian Inference of Microsatellite Instability Status Based on Indel Variation
 
 ## optional: update parameters
 
-+ $\lambda_{msi-h}$
-+ $\lambda_{mss}$
-+ $prevalece_msi-h$,  ($p_{msi-h}$)
-+ $prevalence_mss$, ($p_{mss}$)
++ $\lambda_(msi-h)$
++ $\lambda_(mss)$
++ $prevalece_(msi-h)$
++ $prevalence_(mss)$
 
 ## Usage
 
@@ -43,5 +43,5 @@ MSIp<-function(sequence,allele_sequence,prevalence=0.05){
 p_ = MSIp(10,5)
 ```
 
-+ The null hypothesis ($H_0$) is rejected if the `p_` < 0.05, in which case the sample is considered to not be MSI-H
-+ Alternative hypothesis ($H_1$) assumes the sample is not MSI-H
++ The null hypothesis ($H_(0)$) is rejected if the `p_` < 0.05, in which case the sample is considered to not be MSI-H
++ Alternative hypothesis ($H_(1)$) assumes the sample is not MSI-H
